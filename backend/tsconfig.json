@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "es2016",
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "rootDir": "src",
+    "strict": true,
+    "outDir": "dist",
+    "allowJs": true,
+  },
+  "exclude": ["prisma/**/*"],
+  "include": ["./src/**/*", "./src/keys/jwks.json"]
+}
